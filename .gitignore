@@ -14,14 +14,11 @@
 .env
 npm_installs.txt
 
-<<<<<<< HEAD
-=======
 # Ignore Firebase-related files
 firebase.json
 .firebaserc
 .firebase
 
->>>>>>> a170c3e (adding project)
 # misc
 .DS_Store
 .env.local
