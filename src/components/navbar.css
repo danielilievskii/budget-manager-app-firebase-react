@@ -1,0 +1,136 @@
+.navbar {
+    width: 35vh;
+    height: 100%;
+    background-color: #031c30;
+    background-image: url("https://www.gstatic.com/mobilesdk/190424_mobilesdk/nav_nachos@2x.png");
+    background-position: left 0 bottom 0;
+    background-size: 35vh 50vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+.navbar .navbar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.navbar .logo-container {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+@media (max-width: 1550px) {
+    .navbar .navbar-container {
+        gap: 50px;
+    }
+    .navbar .logo-container {
+        margin-top: 40px;
+    }
+}
+.navbar .logo {
+    width: 100px;
+    height: 60px;
+    transform: scale(1.8);
+    display: inline-block;
+    background: url('../../public/images/logo-removebg-preview.png') no-repeat center center;
+    background-size: contain;
+}
+
+/* USER */
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 15px;
+    transform: scale(1.2);
+}
+
+.user img {
+    border-radius: 50px;
+    transform: scale(1.5);
+    border: 1px solid white;
+}
+
+.user .user-info {
+    text-align: center;
+}
+
+.user p {
+    display: block;
+    color: white;
+    padding: 5px;
+    margin-bottom: -15px;
+    font-size: 18px;
+}
+
+.user .user-type {
+    font-size: 14px;
+}
+
+/* NAVLINKS */
+
+.navbar .links {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.link {
+    width: 100%;
+    padding: 5px 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 17px;
+}
+
+.link i {
+    font-size: 30px;
+}
+
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    border-radius: 8px;
+}
+
+/* LOGOUT */
+
+.navbar .logout-container {
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.navbar .logout-container .logout-btn {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    color: #fff;
+}

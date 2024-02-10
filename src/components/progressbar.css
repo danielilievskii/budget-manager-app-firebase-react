@@ -1,0 +1,22 @@
+.progressbar{
+    //position: relative;
+    //overflow: hidden;
+    width: 350px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #031c30;
+    //left: 85vh;
+    //top: 63vh;
+}
+
+.progressPercent{
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium';
+    position: relative;
+    margin-top: 10px;
+    left: 45%;
+    //top: 90%;
+    //transform: translate(-50%,-50%);
+    color: #eee;
+    text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}

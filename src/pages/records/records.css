@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.main-content {
+    padding: 45px;
+}
+
+.full-width {
+    width: 100% !important;
+    padding-bottom: 45px !important;
+}
+
+.main-content .transactions-wrap {
+    //background-color: #f3f9fb;
+    //background-color: #F2F7FF;
+    //background-color: #F4F6FF;
+    //box-shadow: 0px 0px 13px 2px rgba(0,0,0,0.9);
+    //border-radius: 12px;
+    //padding: 20px 30px;
+    height: 100%;
+    width: auto;
+    //overflow: hidden;
+}
+
+.main-content .transactions-wrap .container {
+    height: 100%;
+    /*display: flex;*/
+    /*!*flex-direction: column;*!*/
+    /*!*justify-content: center;*!*/
+    /*!*align-items: center;*!*/
+    margin-top: 2%;
+    /*overflow-y: scroll;*/
+    /*overflow-x: hidden;*/
+
+}
+
+@media (max-width: 1550px) {
+    .main-content .transactions-wrap .container {
+        margin-top: 0px;
+    }
+}
+
+/*HEAD RECORDS*/
+
+.head-transactions-box {
+
+    height: auto;
+    width: 100%;
+
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+
+    /*border-bottom: 4px solid #06367a;*/
+}
+
+.head-transactions-box h2 {
+    margin-bottom: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.head-transactions-box .head-transactions-box-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.head-transactions-box .head-transactions-box-items .item{
+    width: 30%;
+    transform: scale(1);
+    z-index: 9999;
+}
+
+.sort {
+    font-weight: 650;
+    color: #7895CB;
+}
+
+
+.transactions-box {
+    height: auto;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.pagination-box {
+    height: 10%;
+    width: 100%;
+
+}
+
+.transactions-box .single-record {
+    padding: 10px 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    /*box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);*/
+    /*-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);*/
+    /*-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);*/
+    background-color: #fff;
+    //transition: 0.1s;
+    position: relative;
+    //font-family: 'Cabin', sans-serif;
+
+}
+
+.single-record h3 {
+//font-family: Poppins;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.transactions-box .record-date {
+    margin-top: 15px;
+    text-transform: uppercase;
+
+}
+
+.transactions-box .single-record:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.record-value {
+    margin-right: 15px;
+}
+
+
+.gray-colored {
+    opacity: 0.5;
+}
+
+
+
+.cap-wallet {
+    text-transform: uppercase;
+}
+
+.red {
+    color: #C41E3A;
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.flex {
+    margin: auto;
+}
+
+#dateRange hr {
+    margin: 0;
+    padding: 0;
+}
+
+.category-icon {
+    color: white;
+    border-radius: 5px;
+    width: 27px;
+    text-align: center;
+}
+
+/* Style for Food & Drinks category */
+.fas.fa-utensils {
+    background-color: red;
+    border: 5px solid red;
+}
+
+/* Style for Shopping category */
+.fas.fa-shopping-cart {
+    background-color: cornflowerblue;
+    border: 5px solid cornflowerblue;
+}
+
+.fas.fa-home {
+    background-color: orange;
+    border: 5px solid orange;
+}
+
+.fas.fa-bus {
+    background-color: gray;
+    border: 5px solid gray;
+}
+
+.fas.fa-car {
+    background-color: black;
+    border: 5px solid black;
+}
+
+.fas.fa-city {
+    background-color: greenyellow;
+    border: 5px solid greenyellow;
+}
+.fas.fa-bars {
+    background-color: royalblue;
+    border: 5px solid royalblue;;
+}
+
+.fas.fa-book {
+    background-color: green;
+    border: 5px solid green;
+}
+
+.fas.fa-notes-medical {
+    background-color: red;
+    border: 5px solid red;
+}
+
+.fas.fa-plane-departure {
+    background-color: deepskyblue;
+    border: 5px solid deepskyblue;
+}
+
+.fas.fa-hand-holding-usd {
+    background-color: deeppink;
+    border: 5px solid deeppink;
+}
+
+/* Default style */
+.fas.fa-question {
+    background-color: gray;
+    border: 5px solid gray;
+
+}
+
+.no-transactions {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+//background-color: white;
+    border-radius: 12px;
+    border: 2px dashed #031c30;
+    font-size: 20px;
+}
+
+
+
+ /*UPDATE & DELETE BUTTONS*/
+
+/*.single-record .pen-edit-btn {*/
+/*    position: absolute;*/
+/*    top: 20px;*/
+/*    right: 20px;*/
+/*}*/
+
+.single-record .pen-edit-btn, .single-record .trash-delete-btn {
+    transform: scale(1.4);
+
+    margin-left: 15px;
+
+    //background-color: rgba(6, 54, 122, 1) !important;
+    color: rgba(6, 54, 122, 1);
+    //background-color: white;
+    //padding: 5px;
+    //border-radius: 12px;
+}
+
+.single-record .pen-edit-btn:hover, .single-record .trash-delete-btn:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 1);
+}
+
+.custom-margin-right {
+    margin-right: 30px;
+}
+
+

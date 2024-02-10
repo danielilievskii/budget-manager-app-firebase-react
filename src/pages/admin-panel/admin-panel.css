@@ -1,0 +1,191 @@
+.main-content .admin-panel-wrap {
+    height: 100%;
+    width: auto;
+    //overflow: hidden;
+}
+
+.main-content .admin-panel-wrap .container {
+    height: 100%;
+    /*display: flex;*/
+    /*!*flex-direction: column;*!*/
+    /*!*justify-content: center;*!*/
+    /*!*align-items: center;*!*/
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+@media (max-width: 1550px) {
+    .main-content .admin-panel-wrap .container {
+        margin-top: 0px;
+    }
+}
+
+.head-admin-panel-box {
+    //padding: 10px;
+    //height: 10%;
+    width: 100%;
+
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.head-admin-panel-box .head-admin-panel-box-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+.head-admin-panel-box .head-admin-panel-box-items .sort-section{
+    width: 50%;
+    z-index: 9999;
+}
+
+.head-admin-panel-box .head-admin-panel-box-items .search-container{
+    width: 40%;
+    z-index: 9999;
+}
+
+
+.head-admin-panel-box .search-container {
+    position: relative;
+    float: right;
+}
+.head-admin-panel-box .search-container .search-input {
+    //width: 200px;
+    display: inline;
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.search-container .search-input:focus {
+    outline-color: #6367ef;
+}
+
+.search-container i {
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.admin-panel-table-box {
+    width: 100%;
+    height: 80%;
+
+}
+
+.admin-panel-table {
+    width: 100%;
+    //height: 70%;
+    border-radius: 9px;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.admin-panel-table thead {
+background-color: #7895CB;
+    background-image: url("/public/wallet-images/walletbackground.jpg");
+    background-size: cover;
+    color: white;
+
+}
+
+.admin-panel-table th, .admin-panel-table td {
+    padding: 5px 10px;
+    //text-align: center;
+}
+
+.admin-panel-table tbody tr {
+    background-color: #fff;
+
+}
+
+/*.admin-panel-table tbody tr:nth-of-type(odd) {*/
+/*    background-color: #f5f5f5;*/
+/*    //border-bottom: 7px solid #EBF2FC;*/
+/*}*/
+
+.admin-panel-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.admin-panel-table tbody tr td button {
+    //margin-right: 1px;
+}
+
+.delete-account-btn {
+    border: 0;
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: #C41E3A;
+    transition: 0.2s;
+}
+
+.admin-btn {
+    border: 0;
+    border-radius: 12px;
+    padding: 5px 7px;
+    //width: 160px;
+    transition: 0.2s;
+}
+
+.delete-account-btn:hover, .admin-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.delete-account-btn:active, .admin-btn:active {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.pagination-box {
+    width: 30%;
+    height: 10%;
+    margin: auto;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.pagination-link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.pagination li a {
+    margin: 0 3px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.previous .pagination-link:hover, .next .pagination-link:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.pagination-disabled .pagination-link:hover {
+    background-color: #fff;
+    cursor: default;
+}
+
+
+
+.pagination li.pagination-active a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #7895CB;
+    border-radius: 5px;
+    color: white;
+}
+
+.pagination li.pagination-active a:hover {
+    color: white;
+}
+
+.pagination-disabled a {
+    color: gray !important;
+}

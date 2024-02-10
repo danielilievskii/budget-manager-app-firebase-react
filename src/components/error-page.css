@@ -1,0 +1,15 @@
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');*/
+
+.text-center {
+    color: white;
+    transform: scale(1.5);
+}
+
+.go-back-btn {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 12px;
+    padding: 2px 15px;
+    color: #C41E3A;
+    font-weight: bold;
+}

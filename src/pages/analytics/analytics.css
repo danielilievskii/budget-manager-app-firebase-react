@@ -1,0 +1,166 @@
+
+
+.main-content .analytics-wrap {
+    height: 100%;
+    width: auto;
+    //overflow: hidden;
+    padding-bottom: 20px;
+}
+.main-content .analytics-wrap .container {
+    //height: 100%;
+    /*display: flex;*/
+    /*/*flex-direction: column;*/
+    /*/*justify-content: center;*/
+    /*/*align-items: center;*/
+    margin-top: 2%;
+    padding-bottom: 2%;
+    //overflow: hidden;
+
+}
+
+@media (max-width: 1550px) {
+    .main-content .analytics-wrap .container {
+        margin-top: 0px;
+    }
+}
+
+.head-analytics-box {
+    //padding: 10px;
+    //height: 10%;
+    width: 100%;
+
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.head-analytics-box .head-analytics-box-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-end;
+
+    gap: 15px;
+}
+
+.head-analytics-box .head-analytics-box-items .item{
+    width: 40%;
+    z-index: 9999;
+}
+
+.head-analytics-box .head-analytics-box-items .item .sort {
+    font-weight: 650;
+    color: #7895CB;
+}
+
+.analytics-box  {
+    width: 100%;
+   height: auto;
+    //overflow: hidden;
+}
+
+.analytics-box .row {
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+.chart-box {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+
+}
+
+.chart-box h4{
+    text-align: right;
+}
+
+.fa-caret-up {
+    color: forestgreen;
+}
+
+.fa-caret-down {
+    color: red;
+}
+
+
+.donut{
+    background-color: #fff;
+    border-radius: 12px;
+    height: auto;
+    padding: 15px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+/*.donut .stats-percentage {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    gap: 30px;*/
+/*    margin-top: 20px;*/
+/*    transform: scale(1.3);*/
+/*}*/
+
+/*.stats-percentage-item {*/
+/*    background-color: #EBF2FC;*/
+/*    border-radius: 12px;*/
+/*    padding: 5px;*/
+/*    text-align: center;*/
+/*}*/
+
+
+
+.analytics-table {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+
+
+}
+
+.analytics-table thead {
+    //background-color: #7895CB;
+    background-image: url("/public/wallet-images/walletbackground.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.analytics-table td {
+    padding: 12px 15px;
+}
+
+.analytics-table th {
+    padding: 8px 15px;
+}
+
+.analytics-table tbody {
+    border: 4px solid white;
+
+}
+
+.analytics-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.analytics-table tbody tr:nth-of-type(even) {
+    background-color: #fff;
+}
+
+
+
+.analytics-table tbody tr:last-of-type {
+    //border-bottom: 4px solid white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+

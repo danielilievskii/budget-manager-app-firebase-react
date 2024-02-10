@@ -1,0 +1,43 @@
+.loading {
+   background-color: #031c30;
+    background-image: url("https://www.gstatic.com/mobilesdk/190424_mobilesdk/nav_nachos@2x.png");
+    background-position: bottom 0;
+    background-size: 250vh 170vh;
+    background-repeat: no-repeat;
+    /*background-image: url("/public/wallet-images/proba3.jpg");*/
+    /*background-size: cover;*/
+    /*background-image: url("../../public/logo.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: 25%;*/
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    position: fixed;
+}
+
+.loading-image {
+    background-image: url("../../public/images/logo-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 500px;
+    height: 200px;
+    //position: absolute;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    //align-content: center;
+    position: relative;
+    top: 35%;
+}
+
+.items p {
+    color: #C41E3A;
+    margin-top: 200px;
+    font-weight: bold;
+}
