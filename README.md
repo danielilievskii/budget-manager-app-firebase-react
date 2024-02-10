@@ -2,6 +2,7 @@
 
 The Budget Manager App is a web application built using React and Firebase. It allows users to manage their expenses and track their budget effectively.
 
+https://budget-manager-app-e1387.web.app
 ## Features
 * Budget Management: Users can input and track their income and expenses from each wallet.
 * Firebase Integration: The app uses Firebase for data storage and authentication.
