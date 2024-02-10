@@ -1,11 +1,46 @@
-# Getting Started with Create React App
+# Budget Manager App (React + Firebase)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Budget Manager App is a web application built using React and Firebase. It allows users to manage their expenses and track their budget effectively.
 
-## Available Scripts
+## Features
+* Budget Management: Users can input and track their income and expenses from each wallet.
+* Firebase Integration: The app uses Firebase for data storage and authentication.
+* Authentication: Secure user authentication using Firebase Authentication.
+* Redux State Management: Redux is employed to manage the app’s state.
+* Real-time Updates: Expenses are synced in real-time across devices.
+* Thunk Middleware: Used for asynchronous actions.
 
-In the project directory, you can run::
+## Getting Started
 
+### Installation
+1. Clone this repository:
+### `git clone https://github.com/danielilievskii/budget-manager-app-firebase-react.git`
+
+2. Navigate to the project directory:
+### `cd react-budget-app`
+
+3. Install dependencies:
+### `npm install`
+
+4. Configuration
+* Create a Firebase project at Firebase Console.
+* Obtain your Firebase configuration (API key, project ID, etc.).
+* Create `.env` file and fill in you Firebase API keys:
+
+
+`REACT_APP_APIKEY=YOUR_API_KEY`
+
+`REACT_APP_AUTHDOMAIN=YOUR_AUTH_DOMAIN`
+
+`REACT_APP_DATABASEURL=YOUR_DATABASE_URL`
+
+`REACT_APP_PROJECTID=YOUR_PROJECT_ID`
+
+`REACT_APP_STORAGEBUCKET=YOUR_STORAGE_BUCKET`
+
+`REACT_APP_MESSAGING_SENDER_ID=YOUR_MESSAGING_SENDER_ID`
+
+5. Start the app:
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -14,10 +49,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Feel free to customize this README to include any additional information specific to your project. Good luck with your Budget Manager App! 📊💰
+
+
+## Additional Commands
 
 ### `npm run build`
 
@@ -39,32 +80,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
